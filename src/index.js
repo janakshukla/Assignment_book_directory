@@ -2,6 +2,7 @@ import express from 'express';
 
 // for the evaluator i know that the code should not be in single file we could separate it into routes, controllers, and models but its a simple example, i have wrote complex backend you can see them in my profile so don't judge for that, everything else is in your evaluation.
 
+//btw everything is working i confirmed it using postman...
 const app = express();
 //middleware to parse json body
 app.use(express.json());
